@@ -1,16 +1,16 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
+  "id": "the.dragon",
+  "name": "The Dragon",
   "main": "dist/main.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
   "minVersionCode" : 290,
   "price": 0,
   "author": {
-    "name": "",
-    "email": "",
-    "github": ""
+    "name": "MTplusWebSystem",
+    "email": "MTplusWebSystem@gmail.com",
+    "github": "https://github.com/MTplusWebSystem/the_dragon_plugin.git"
   }
 }

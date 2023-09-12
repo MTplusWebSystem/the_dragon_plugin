@@ -1,26 +1,29 @@
 import plugin from '../plugin.json';
+import * as setup from './themes/themes.js';
 
-class AcodePlugin {
+class theme {
+  
+	async init() {
+	  
+	 setup.Dragon('the Dragon ');
+	};
 
-  async init() {
+	async destroy() {};
+	
+};
 
-  }
-
-  async destroy() {
-
-  }
-}
-
+// eslint-disable-next-line no-undef
 if (window.acode) {
-  const acodePlugin = new AcodePlugin();
-  acode.setPluginInit(plugin.id, async (baseUrl, $page, { cacheFileUrl, cacheFile }) => {
-    if (!baseUrl.endsWith('/')) {
-      baseUrl += '/';
-    }
-    acodePlugin.baseUrl = baseUrl;
-    await acodePlugin.init($page, cacheFile, cacheFileUrl);
-  });
-  acode.setPluginUnmount(plugin.id, () => {
-    acodePlugin.destroy();
-  });
-}
+	// eslint-disable-next-line no-undef
+	acode.setPluginInit(plugin.id, async (url) => {
+		if (!url.endsWith('/')) return (url += '/');
+		
+		new theme().url = url;
+		new theme().init();
+		
+	});
+
+	// eslint-disable-next-line no-undef
+	acode.setPluginUnmount(plugin.id, () => new theme().destroy());
+	
+};

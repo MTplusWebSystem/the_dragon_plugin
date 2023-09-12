@@ -1,14 +1,19 @@
 {
-  "name": "acode-plugin",
-  "version": "1.0.2",
-  "description": "Template for Acode plugin",
+  "name": "the-dragon",
+  "versiothe-drago2",
+  "description": "theme of the dragon",
   "main": "dist/main.js",
-  "repository": "https://github.com/deadlyjack/acode-plugin.git",
+  "repository": "",
   "author": "Ajit <me@ajitkumar.dev>",
   "license": "MIT",
   "dependencies": {
     "html-tag-js": "^1.1.22"
   },
+  "keywords": [
+    "vscode",
+    "acode",
+    "theme"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",

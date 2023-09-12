@@ -1,5 +1,11 @@
-# Acode plugin
+<center> <h1>The Dragron</h1>
+</center>
 
-> For typescript version of plugin template switch this repo to main-ts
+### Acode plugin
 
-Read acode plugin [documentation](https://acode.foxdebug.com/plugin-docs) to develop plugin for acode editor.
+> Para a versão:290 ou superior do modelo 
+
+Código público 
+ [github](https://github.com/MTplusWebSystem/the_dragon_plugin) 
+ 
+ 
